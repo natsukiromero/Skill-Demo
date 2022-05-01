@@ -4,6 +4,6 @@ import static org.junit.Assert.*;
 public class SkillDemoTester {
     @Test
     public void testMadLibs() {
-        assertEquals("catsarecool", SkillDemo.madLibs("cats", "cool"));
+        assertEquals("cats are cool", SkillDemo.madLibs("cats", "cool"));
     }
 }
